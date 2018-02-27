@@ -1,0 +1,50 @@
+html {
+  background-color: #fdf5e6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 40px;
+  font-family: 'Imprima', sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+.inputSection {
+  margin: 10px 0px 80px 0px;
+  width: 400px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.addOption {
+  margin-top: 10px;
+  font-family: 'Imprima', sans-serif;
+  height: 25px;
+}
+
+button {
+  border-radius: 10px;
+}
+
+.go {
+  width: 70px;
+  height: 40px;
+  font-size: 30px;
+  font-family: 'Imprima', sans-serif;
+}
