@@ -16,6 +16,26 @@
       </div>
       <button class="addOption">Add</button>
     </div>
+    <div class="reasultSeaction"></div>
     <button class="go">Go!</button>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+    $(function() {
+      $('.reasultSeaction').hide()
+
+      var add_option = function(){
+        $('.inputs').append('<input></input>')
+      }
+
+      $('.addOption').click(add_option)
+
+      $('h1').click(function() {
+        $('body').toggleClass('blueBackground')
+      })
+
+    })
+
+    </script>
   </body>
 </html>
