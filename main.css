@@ -66,3 +66,17 @@ img {
 .blueBackground {
   background-color: #87ceeb;
 }
+
+.reasultSeaction {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-family: 'Imprima', sans-serif;
+}
+
+.rubrik3 {
+  font-family: 'Imprima', sans-serif;
+  font-size: 40px;
+}
