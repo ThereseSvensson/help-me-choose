@@ -12,18 +12,22 @@ body {
 h1 {
   font-weight: lighter;
   font-size: 40px;
+  font-size: 45px;
   font-family: 'Imprima', sans-serif;
   letter-spacing: 2px;
   margin-bottom: 0px;
+  margin-top: 5px;
 }
 
 h2 {
   font-weight: lighter;
   font-size: 25px;
+  font-size: 30px;
   font-family: 'Imprima', sans-serif;
   letter-spacing: 2px;
   margin-bottom: 0px;
   margin-top:auto;
+  margin-top: 3px;
 }
 
 .inputSection {
