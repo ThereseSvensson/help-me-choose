@@ -5,6 +5,65 @@
     <title>Help me choose</title>
     <link href="./main.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
+    <style>
+    .go {
+      display: inline-block;
+      border-radius: 4px;
+      background-color: #4CAF50;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 25px;
+      padding: 7px;
+      width: 100px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .go span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .go span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .go:hover span{
+      padding-right: 25px;
+    }
+
+    .go:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+
+    .addOption {
+      display: inline-block;
+      padding: 4px 15px;
+      font-size: 15px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .addOption:hover {
+      background-color: #3e8e41;
+    }
+    </style>
   </head>
   <body>
     <img src="https://images.unsplash.com/photo-1484544808355-8ec84e534d75?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fc1407c2a550b0ebf3def8b81fa7b4a2&auto=format&fit=crop&w=1366&q=80"
@@ -20,6 +79,7 @@
     </div>
     <div class="reasultSeaction"></div>
     <button class="go">Go!</button>
+    <button class="go" style="vertical-align:middle"><span>Go!</span></button>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script>
